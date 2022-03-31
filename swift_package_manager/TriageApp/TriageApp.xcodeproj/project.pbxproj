@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2C037527EB7C4400830266 /* MixedUITriageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C037427EB7C4400830266 /* MixedUITriageApp.swift */; };
+		EA2C037727EB7C4400830266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C037627EB7C4400830266 /* ContentView.swift */; };
+		EA2C037927EB7C4600830266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C037827EB7C4600830266 /* Assets.xcassets */; };
+		EA2C037C27EB7C4600830266 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C037B27EB7C4600830266 /* Preview Assets.xcassets */; };
+		EA2C039027EB7FA200830266 /* SwiftUITriageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C038127EB7F9F00830266 /* SwiftUITriageApp.swift */; };
+		EA2C039127EB7FA200830266 /* SwiftUITriageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C038127EB7F9F00830266 /* SwiftUITriageApp.swift */; };
+		EA2C039227EB7FA200830266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C038227EB7F9F00830266 /* ContentView.swift */; };
+		EA2C039327EB7FA200830266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C038227EB7F9F00830266 /* ContentView.swift */; };
+		EA2C039427EB7FA200830266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C038327EB7FA100830266 /* Assets.xcassets */; };
+		EA2C039527EB7FA200830266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C038327EB7FA100830266 /* Assets.xcassets */; };
+		EA2C03A727EB7FFA00830266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C03A627EB7FFA00830266 /* Assets.xcassets */; };
+		EA2C03AA27EB7FFA00830266 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C03A927EB7FFA00830266 /* Preview Assets.xcassets */; };
+		EA2C03B527EB809F00830266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C03B427EB809F00830266 /* AppDelegate.swift */; };
+		EA2C03B727EB809F00830266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C03B627EB809F00830266 /* SceneDelegate.swift */; };
+		EA2C03B927EB809F00830266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C03B827EB809F00830266 /* ViewController.swift */; };
+		EA2C03BE27EB80A100830266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2C03BD27EB80A100830266 /* Assets.xcassets */; };
+		EA2C03C127EB80A100830266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2C03BF27EB80A100830266 /* LaunchScreen.storyboard */; };
+		EA2C03C627EB812200830266 /* SwiftUITriageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C038127EB7F9F00830266 /* SwiftUITriageApp.swift */; };
+		EA2C03C727EB812600830266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C038227EB7F9F00830266 /* ContentView.swift */; };
+		EAA6659127F3774200DD4EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */; };
+		EAA6659227F3774200DD4EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */; };
+		EAA6659327F3774200DD4EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */; };
+		EAA6659427F3774200DD4EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */; };
+		EAA6659527F3774200DD4EC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */; };
+		EAB45D9327EBB01D0013BEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB45D9227EBB01D0013BEEF /* AppDelegate.swift */; };
+		EAB45D9527EBB0360013BEEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB45D9427EBB0360013BEEF /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA2C037227EB7C4400830266 /* MixedUITriageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixedUITriageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2C037427EB7C4400830266 /* MixedUITriageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedUITriageApp.swift; sourceTree = "<group>"; };
+		EA2C037627EB7C4400830266 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA2C037827EB7C4600830266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2C037B27EB7C4600830266 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA2C038127EB7F9F00830266 /* SwiftUITriageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITriageApp.swift; sourceTree = "<group>"; };
+		EA2C038227EB7F9F00830266 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA2C038327EB7FA100830266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2C038827EB7FA200830266 /* SwiftUITriageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITriageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2C038D27EB7FA200830266 /* SwiftUITriageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITriageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2C038F27EB7FA200830266 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EA2C03A027EB7FF800830266 /* SwiftUITriageApp (tvOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUITriageApp (tvOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2C03A627EB7FFA00830266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2C03A927EB7FFA00830266 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA2C03B227EB809F00830266 /* UIKitTriageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitTriageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2C03B427EB809F00830266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA2C03B627EB809F00830266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA2C03B827EB809F00830266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA2C03BD27EB80A100830266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2C03C027EB80A100830266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA2C03C227EB80A100830266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2C03C927EBAC4700830266 /* UIKitTriageApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UIKitTriageApp.entitlements; sourceTree = "<group>"; };
+		EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAB45D9227EBB01D0013BEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAB45D9427EBB0360013BEEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2C036F27EB7C4400830266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C038527EB7FA200830266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C038A27EB7FA200830266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C039D27EB7FF800830266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C03AF27EB809F00830266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2C031027EB757C00830266 = {
+			isa = PBXGroup;
+			children = (
+				EAA6659027F3774200DD4EC7 /* GoogleService-Info.plist */,
+				EA2C036D27EB7AE300830266 /* SwiftUITriageApp */,
+				EA2C037327EB7C4400830266 /* MixedUITriageApp */,
+				EA2C03B327EB809F00830266 /* UIKitTriageApp */,
+				EA2C031E27EB758300830266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2C031E27EB758300830266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C037227EB7C4400830266 /* MixedUITriageApp.app */,
+				EA2C038827EB7FA200830266 /* SwiftUITriageApp.app */,
+				EA2C038D27EB7FA200830266 /* SwiftUITriageApp.app */,
+				EA2C03A027EB7FF800830266 /* SwiftUITriageApp (tvOS).app */,
+				EA2C03B227EB809F00830266 /* UIKitTriageApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2C036D27EB7AE300830266 /* SwiftUITriageApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C038027EB7F9F00830266 /* Shared */,
+				EA2C038E27EB7FA200830266 /* macOS */,
+				EA2C03A127EB7FF800830266 /* tvOS */,
+			);
+			path = SwiftUITriageApp;
+			sourceTree = "<group>";
+		};
+		EA2C037327EB7C4400830266 /* MixedUITriageApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C037427EB7C4400830266 /* MixedUITriageApp.swift */,
+				EAB45D9227EBB01D0013BEEF /* AppDelegate.swift */,
+				EA2C037627EB7C4400830266 /* ContentView.swift */,
+				EAB45D9427EBB0360013BEEF /* SceneDelegate.swift */,
+				EA2C037827EB7C4600830266 /* Assets.xcassets */,
+				EA2C037A27EB7C4600830266 /* Preview Content */,
+			);
+			path = MixedUITriageApp;
+			sourceTree = "<group>";
+		};
+		EA2C037A27EB7C4600830266 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C037B27EB7C4600830266 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA2C038027EB7F9F00830266 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C038127EB7F9F00830266 /* SwiftUITriageApp.swift */,
+				EA2C038227EB7F9F00830266 /* ContentView.swift */,
+				EA2C038327EB7FA100830266 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EA2C038E27EB7FA200830266 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C038F27EB7FA200830266 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EA2C03A127EB7FF800830266 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C03A627EB7FFA00830266 /* Assets.xcassets */,
+				EA2C03A827EB7FFA00830266 /* Preview Content */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		EA2C03A827EB7FFA00830266 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C03A927EB7FFA00830266 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA2C03B327EB809F00830266 /* UIKitTriageApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C03C927EBAC4700830266 /* UIKitTriageApp.entitlements */,
+				EA2C03B427EB809F00830266 /* AppDelegate.swift */,
+				EA2C03B627EB809F00830266 /* SceneDelegate.swift */,
+				EA2C03B827EB809F00830266 /* ViewController.swift */,
+				EA2C03BD27EB80A100830266 /* Assets.xcassets */,
+				EA2C03BF27EB80A100830266 /* LaunchScreen.storyboard */,
+				EA2C03C227EB80A100830266 /* Info.plist */,
+			);
+			path = UIKitTriageApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2C037127EB7C4400830266 /* MixedUITriageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2C037D27EB7C4600830266 /* Build configuration list for PBXNativeTarget "MixedUITriageApp" */;
+			buildPhases = (
+				EA2C036E27EB7C4400830266 /* Sources */,
+				EA2C036F27EB7C4400830266 /* Frameworks */,
+				EA2C037027EB7C4400830266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixedUITriageApp;
+			productName = MixedUITriageApp;
+			productReference = EA2C037227EB7C4400830266 /* MixedUITriageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2C038727EB7FA200830266 /* SwiftUITriageApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2C039627EB7FA200830266 /* Build configuration list for PBXNativeTarget "SwiftUITriageApp (iOS)" */;
+			buildPhases = (
+				EA2C038427EB7FA200830266 /* Sources */,
+				EA2C038527EB7FA200830266 /* Frameworks */,
+				EA2C038627EB7FA200830266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUITriageApp (iOS)";
+			productName = "SwiftUITriageApp (iOS)";
+			productReference = EA2C038827EB7FA200830266 /* SwiftUITriageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2C038C27EB7FA200830266 /* SwiftUITriageApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2C039927EB7FA200830266 /* Build configuration list for PBXNativeTarget "SwiftUITriageApp (macOS)" */;
+			buildPhases = (
+				EA2C038927EB7FA200830266 /* Sources */,
+				EA2C038A27EB7FA200830266 /* Frameworks */,
+				EA2C038B27EB7FA200830266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUITriageApp (macOS)";
+			productName = "SwiftUITriageApp (macOS)";
+			productReference = EA2C038D27EB7FA200830266 /* SwiftUITriageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2C039F27EB7FF800830266 /* SwiftUITriageApp (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2C03AB27EB7FFA00830266 /* Build configuration list for PBXNativeTarget "SwiftUITriageApp (tvOS)" */;
+			buildPhases = (
+				EA2C039C27EB7FF800830266 /* Sources */,
+				EA2C039D27EB7FF800830266 /* Frameworks */,
+				EA2C039E27EB7FF800830266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUITriageApp (tvOS)";
+			productName = "SwiftUITriageApp (tvOS)";
+			productReference = EA2C03A027EB7FF800830266 /* SwiftUITriageApp (tvOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2C03B127EB809F00830266 /* UIKitTriageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2C03C327EB80A100830266 /* Build configuration list for PBXNativeTarget "UIKitTriageApp" */;
+			buildPhases = (
+				EA2C03AE27EB809F00830266 /* Sources */,
+				EA2C03AF27EB809F00830266 /* Frameworks */,
+				EA2C03B027EB809F00830266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitTriageApp;
+			productName = UIKitTriageApp;
+			productReference = EA2C03B227EB809F00830266 /* UIKitTriageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2C031127EB757C00830266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EA2C037127EB7C4400830266 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					EA2C038727EB7FA200830266 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					EA2C038C27EB7FA200830266 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					EA2C039F27EB7FF800830266 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					EA2C03B127EB809F00830266 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = EA2C031427EB757C00830266 /* Build configuration list for PBXProject "TriageApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2C031027EB757C00830266;
+			productRefGroup = EA2C031E27EB758300830266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2C037127EB7C4400830266 /* MixedUITriageApp */,
+				EA2C038727EB7FA200830266 /* SwiftUITriageApp (iOS) */,
+				EA2C038C27EB7FA200830266 /* SwiftUITriageApp (macOS) */,
+				EA2C039F27EB7FF800830266 /* SwiftUITriageApp (tvOS) */,
+				EA2C03B127EB809F00830266 /* UIKitTriageApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2C037027EB7C4400830266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C037C27EB7C4600830266 /* Preview Assets.xcassets in Resources */,
+				EA2C037927EB7C4600830266 /* Assets.xcassets in Resources */,
+				EAA6659127F3774200DD4EC7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C038627EB7FA200830266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C039427EB7FA200830266 /* Assets.xcassets in Resources */,
+				EAA6659227F3774200DD4EC7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C038B27EB7FA200830266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C039527EB7FA200830266 /* Assets.xcassets in Resources */,
+				EAA6659327F3774200DD4EC7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C039E27EB7FF800830266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C03AA27EB7FFA00830266 /* Preview Assets.xcassets in Resources */,
+				EA2C03A727EB7FFA00830266 /* Assets.xcassets in Resources */,
+				EAA6659427F3774200DD4EC7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C03B027EB809F00830266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C03C127EB80A100830266 /* LaunchScreen.storyboard in Resources */,
+				EA2C03BE27EB80A100830266 /* Assets.xcassets in Resources */,
+				EAA6659527F3774200DD4EC7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2C036E27EB7C4400830266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB45D9327EBB01D0013BEEF /* AppDelegate.swift in Sources */,
+				EA2C037727EB7C4400830266 /* ContentView.swift in Sources */,
+				EA2C037527EB7C4400830266 /* MixedUITriageApp.swift in Sources */,
+				EAB45D9527EBB0360013BEEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C038427EB7FA200830266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C039227EB7FA200830266 /* ContentView.swift in Sources */,
+				EA2C039027EB7FA200830266 /* SwiftUITriageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C038927EB7FA200830266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C039327EB7FA200830266 /* ContentView.swift in Sources */,
+				EA2C039127EB7FA200830266 /* SwiftUITriageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C039C27EB7FF800830266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C03C727EB812600830266 /* ContentView.swift in Sources */,
+				EA2C03C627EB812200830266 /* SwiftUITriageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2C03AE27EB809F00830266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2C03B927EB809F00830266 /* ViewController.swift in Sources */,
+				EA2C03B527EB809F00830266 /* AppDelegate.swift in Sources */,
+				EA2C03B727EB809F00830266 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA2C03BF27EB80A100830266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2C03C027EB80A100830266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2C032C27EB758300830266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA2C032D27EB758300830266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EA2C037E27EB7C4600830266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MixedUITriageApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA2C037F27EB7C4600830266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MixedUITriageApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2C039727EB7FA200830266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = SwiftUITriageApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA2C039827EB7FA200830266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = SwiftUITriageApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2C039A27EB7FA200830266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = SwiftUITriageApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA2C039B27EB7FA200830266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = SwiftUITriageApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EA2C03AC27EB7FFA00830266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "$(SRCROOT)/SwiftUITriageApp/tvOS/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		EA2C03AD27EB7FFA00830266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "$(SRCROOT)/SwiftUITriageApp/tvOS/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2C03C427EB80A100830266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UIKitTriageApp/UIKitTriageApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIKitTriageApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Google Development";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA2C03C527EB80A100830266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UIKitTriageApp/UIKitTriageApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIKitTriageApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.triageapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Google Development";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2C031427EB757C00830266 /* Build configuration list for PBXProject "TriageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C032C27EB758300830266 /* Debug */,
+				EA2C032D27EB758300830266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2C037D27EB7C4600830266 /* Build configuration list for PBXNativeTarget "MixedUITriageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C037E27EB7C4600830266 /* Debug */,
+				EA2C037F27EB7C4600830266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2C039627EB7FA200830266 /* Build configuration list for PBXNativeTarget "SwiftUITriageApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C039727EB7FA200830266 /* Debug */,
+				EA2C039827EB7FA200830266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2C039927EB7FA200830266 /* Build configuration list for PBXNativeTarget "SwiftUITriageApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C039A27EB7FA200830266 /* Debug */,
+				EA2C039B27EB7FA200830266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2C03AB27EB7FFA00830266 /* Build configuration list for PBXNativeTarget "SwiftUITriageApp (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C03AC27EB7FFA00830266 /* Debug */,
+				EA2C03AD27EB7FFA00830266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2C03C327EB80A100830266 /* Build configuration list for PBXNativeTarget "UIKitTriageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2C03C427EB80A100830266 /* Debug */,
+				EA2C03C527EB80A100830266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2C031127EB757C00830266 /* Project object */;
+}

@@ -1,0 +1,11 @@
+# Add your desired Firebase dependencies like in the below example.
+#   
+#   binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json"
+# 
+# Then, run `carthage update` to install the defined dependencies.
+# 
+# The `FirebaseAnalyticsBinary` must always be included:
+
+binary "https://dl.google.com/dl/firebase/ios/carthage/FirebaseAnalyticsBinary.json"
+
+# Add the rest of your Carthage dependencies below:

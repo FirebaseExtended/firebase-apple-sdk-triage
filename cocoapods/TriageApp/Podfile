@@ -1,0 +1,62 @@
+source 'https://github.com/firebase/SpecsStaging.git'
+source 'https://cdn.cocoapods.org/'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+# Adding a pod here will link the pod to all targets.
+#
+#   pod 'Firebase/Auth'
+#
+# The above command will pull in the latest release of FirebaseAuth.
+# 
+# If you're trying to debug a local version of FirebaseAuth, you can
+# specify the path that contains the FirebaseAuth.podspec you want to 
+# depend on.
+#
+#   pod 'Firebase/Auth', :path => '~/path/to/firebase-ios-sdk'
+#
+# Learn more about Podfile syntax at https://guides.cocoapods.org/syntax/podfile.html#podfile.
+#
+# Add Firebase pods directly below this line.
+
+target 'MixedUITriageApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MixedUITriageApp
+
+end
+
+target 'SwiftUITriageApp (iOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftUITriageApp (iOS)
+
+end
+
+target 'SwiftUITriageApp (macOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftUITriageApp (macOS)
+
+end
+
+target 'SwiftUITriageApp (tvOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwiftUITriageApp (tvOS)
+
+end
+
+target 'UIKitTriageApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for UIKitTriageApp
+
+end
+
