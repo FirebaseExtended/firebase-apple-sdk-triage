@@ -26,7 +26,7 @@ You may need additional tooling depending on which app you're building:
 ### Clone this repo
 Next, clone this repo onto your machine.
 
-```
+```console
 git clone git@github.com:google/firebaseappletriage.git
 ```
 
