@@ -27,7 +27,7 @@ You may need additional tooling depending on which app you're building:
 Next, clone this repo onto your machine.
 
 ```console
-git clone git@github.com:google/firebaseappletriage.git
+git clone git@github.com:firebase/firebaseapplesdktriage.git
 ```
 
 ## Building a "skeleton" app
