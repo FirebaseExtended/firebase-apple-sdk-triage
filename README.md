@@ -27,7 +27,7 @@ You may need additional tooling depending on which app you're building:
 Next, clone this repo onto your machine.
 
 ```console
-git clone git@github.com:firebase/firebase-apple-sdk-triage.git
+git clone git@github.com:FirebaseExtended/firebase-apple-sdk-triage.git
 ```
 
 ## Building a "skeleton" app
